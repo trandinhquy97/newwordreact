@@ -18,15 +18,11 @@
     "styled-components": "^5.1.0"
   },
   "scripts": {
-    "start": "react-scripts build && react-scripts start",
+    "start": "PORT=80 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
-  },
-  "engines": {
-    "node": "~6.10.3",
-    "npm": "~5.6.0"
   },
   "eslintConfig": {
     "extends": "react-app"
